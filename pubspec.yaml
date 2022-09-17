@@ -1,0 +1,113 @@
+name: hcabaj
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.0.8
+  font_awesome_flutter: ^9.2.0
+  http: ^0.13.3
+  photo_view: ^0.13.0
+  url_launcher: ^6.0.10
+  webview_flutter: ^2.0.12
+  flutter_html: ^2.2.1
+  flutter_widget_from_html: ^0.8.0
+  shared_preferences: any
+  cached_network_image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/assets/HCABAJ-removebg-preview.png
+    - lib/assets/HCABAJ-removebg-preview (1).png
+    - lib/assets/background.jpeg
+    - lib/assets/introImage2.jpg
+    - lib/assets/introImage3.png
+    - lib/assets/ExecutivebodyMembers/ExecutiveMember1.png
+    - lib/assets/ExecutivebodyMembers/ExecutiveMember2.png
+    - lib/assets/ExecutivebodyMembers/ExecutiveMember3.png
+    - lib/assets/ExecutivebodyMembers/ExecutiveMember4.png
+    - lib/assets/ExecutivebodyMembers/ExecutiveMember5.png
+    - lib/assets/ExecutivebodyMembers/JointSecretary.png
+    - lib/assets/ExecutivebodyMembers/LibrarySecretary.png
+    - lib/assets/ExecutivebodyMembers/President.png
+    - lib/assets/ExecutivebodyMembers/Secretary.png
+    - lib/assets/ExecutivebodyMembers/Treasurer.png
+    - lib/assets/ExecutivebodyMembers/VicePresident.png
+    - lib/assets/libra-scales-justice-2754246.png
+    - lib/assets/law-books-library-rows-of-books-291676.jpeg
+    - lib/assets/hammer-horizontal-court-802296-1024x768.jpg
+    - lib/assets/legal-right-justice-5211993-682x1024.jpg
+    - lib/assets/the-legal-justice-law-4926021.jpg
+    - lib/assets/global.png
+    - lib/assets/club-auction-law-2492013.jpeg
+    - lib/assets/gavel-auction-hammer-3577258.jpeg
+    - lib/assets/default_avatar.jpeg
+    - lib/assets/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpeg
+    - lib/assets/meeting-relationship-business-1019875.jpeg
+    - lib/assets/sssssss.png
+    - lib/assets/Gallery/boardImage.jpeg
+    - lib/assets/Gallery/FrontCourt.jpeg
+    - lib/assets/Gallery/NatureBg.jpeg
+    - lib/assets/Gallery/typeWriter.jpeg
+    - lib/assets/Gallery/workingGuy.jpeg
+    - lib/assets/Gallery/board1.jpeg
+    - lib/assets/Gallery/BAR MEMBER BANNER 600X450.png
+    - lib/assets/Gallery/hcabaj1.png
+  #     - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
