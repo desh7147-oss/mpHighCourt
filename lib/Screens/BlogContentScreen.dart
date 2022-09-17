@@ -37,7 +37,7 @@ class BlogContentScreen extends StatelessWidget {
                   child: Text(
                     "${blog.postTitle}",
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w700),
+                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.w500),
                   ),
                 ),
                 Container(
@@ -48,7 +48,7 @@ class BlogContentScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(13.0),
                   child: Text(
                     "${blog.postContent}",
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
                   ),
                 ),
                 SizedBox(

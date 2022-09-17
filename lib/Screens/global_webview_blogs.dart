@@ -117,7 +117,7 @@ class _GlobalWebViewBlogState extends State<GlobalWebViewBlog> {
                                           overflow: TextOverflow.ellipsis,
                                           style: TextStyle(
                                               fontSize: 16,
-                                              fontWeight: FontWeight.w500),
+                                              fontWeight: FontWeight.w400),
                                         ),
                                       ),
                                     ],

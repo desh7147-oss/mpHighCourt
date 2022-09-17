@@ -369,7 +369,7 @@ class _MembersScreenState extends State<MembersScreen> {
     List<User>? results = [];
     enteredKeyword = controller!.text;
     // enteredKeyword = controller!.text;
-    if (enteredKeyword!.isEmpty) {
+    if (enteredKeyword.isEmpty) {
       // if the search field is empty or only contains white-space, we'll display all users
       results = membersList;
     } else {
@@ -406,9 +406,9 @@ class _MembersScreenState extends State<MembersScreen> {
       for (int i = 1; i < splittedName.length; i++) {
         print("name" + splittedName[i]);
         String currentName =
-            lastName!.isNotEmpty ? " " + splittedName[i] : splittedName[i];
+            lastName.isNotEmpty ? " " + splittedName[i] : splittedName[i];
 
-        lastName = lastName! + currentName;
+        lastName = lastName + currentName;
       }
     }
     print("tapped inkwell");
